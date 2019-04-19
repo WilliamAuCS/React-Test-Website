@@ -1,26 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <h1 ID="Title"> Welcome to my website </h1>
+        <h3 ID="Title"> What happens to this?</h3>
+        <p ID="Text">This is normal text</p>
+
+        <form>
+        <h3 ID="Login">Username:
+        <input ID="Login" Type="text" name="Username:"/>
+        </h3>
+        <input ID="Button" Type="submit" value="Submit"/>
+        </form>
+      </div>      
     );
   }
 }
