@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 ID="Title"> Welcome to my website </h1>
+        <h1 ID="Title"> Alcovy Mobile Home Community </h1>
         <h3 ID="Title"> What happens to this?</h3>
         <p ID="Text">This is normal text</p>
 
